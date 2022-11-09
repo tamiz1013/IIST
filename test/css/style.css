@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+}
+.header{
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    background-color: #7c7b79;
+    align-items: center;
+}
+.logo img{
+    width: 90%;
+}
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+ul li{
+    list-style-type: none;
+    padding: 2px 4px;
+    font-size: 140%;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    background-color: #787878;
+    margin: 3px 10px;
+    border-radius: 3px;
+}
+.slider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('https://img.freepik.com/free-vector/blurred-background-with-light-colors_1034-245.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.slider-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    line-height: 45px;
+}
+.slider-box h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+.slider-box p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.slider-box a{
+    font-size: 18px;
+    font-weight: 900;
+}
+.slider a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 8px;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+}
+.service-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #a5a5a5;
+    margin-top: 10px;
+    border-radius: 3px;
+    line-height: 30px;
+}
+.services{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    justify-items: center;
+    background-color: #dfdfdf;
+    align-items: center;
+}
+.course{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: #7c7b79;
+    border-radius: 3px;
+    line-height: 30px;
+    align-items: center;
+
+    
+}
+.first-course{
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  
+}
+.course a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 2px 5px;
+    background-color: #ababab;
+    border-radius: 3px;
+}
+.services img{
+    width: 50%;
+    height: 50%px;
+    border-radius: 2px;
+}
+.container-bottom{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    justify-items: center;
+    background-color: #dfdfdf;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: #cdcbc6;
+    border-radius: 3px;
+    line-height: 30px;
+
+}
+.menu-bottom{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: #cdcbc6;
+    border-radius: 3px;
+    line-height: 30px;
+    color: red;
+}
+.social-links{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    width: 80%;
+    background-color: #cdcbc6;
+    border-radius: 3px;
+    line-height: 30px;
+    color: red;
+}
+.social-links >a{
+
+text-decoration: none;
+color: red;
+}
+
+
+
+
+
+
+
+.footer{
+    margin-top: 10px;
+    text-align: center;
+    background-color: #ababab;
+}
