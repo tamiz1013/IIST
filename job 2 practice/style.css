@@ -1,0 +1,49 @@
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.img-back{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    background: url(./images/background/bg_main.gif) center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.cont{
+    width: 69%;
+}
+.hero img{
+    width: 100%;
+}
+.tab-content img{
+    width: 100px;
+    margin: 20px;
+    
+}
+.menu li{
+    border-right: 1px solid #ccc;
+}
+
+
+
+.footer-background{
+    height: 100px;
+    background: url(./images/footer/footer_top_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.footer-top a{
+    text-decoration: none;
+    padding: 4px;
+    background-color: rgb(219, 211, 211);
+    border-right: 2px solid #ccc;
+    color: black;
+}
+
